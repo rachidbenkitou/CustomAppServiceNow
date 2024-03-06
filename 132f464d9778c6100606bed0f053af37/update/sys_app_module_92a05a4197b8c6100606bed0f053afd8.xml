@@ -17,24 +17,24 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_1320315_firstapp.device_management</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-06 00:20:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>92a05a4197b8c6100606bed0f053afd8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Create New</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create New Device Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="FirstCustomApp" source="x_1320315_firstapp">132f464d9778c6100606bed0f053af37</sys_package>
         <sys_policy/>
         <sys_scope display_value="FirstCustomApp">132f464d9778c6100606bed0f053af37</sys_scope>
         <sys_update_name>sys_app_module_92a05a4197b8c6100606bed0f053afd8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-06 00:20:44</sys_updated_on>
+        <sys_updated_on>2024-03-06 15:41:28</sys_updated_on>
         <timeline_page/>
-        <title>Create New</title>
+        <title>Create New Device Request</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
