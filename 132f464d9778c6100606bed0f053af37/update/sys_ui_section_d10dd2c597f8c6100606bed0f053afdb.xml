@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Price and Warranty" section_id="d10dd2c597f8c6100606bed0f053afdb" sys_domain="global" table="x_1320315_firstapp_ai_devices" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_price_2</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-06 01:15:01</sys_created_on>
+            <sys_id>e51d1ec597f8c6100606bed0f053af0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Price and Warranty" display_value="Price and Warranty" name="x_1320315_firstapp_ai_devices" sys_domain="global" view="Default view">d10dd2c597f8c6100606bed0f053afdb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-06 01:15:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-06 01:15:01</sys_created_on>
+            <sys_id>691d1ec597f8c6100606bed0f053af0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Price and Warranty" display_value="Price and Warranty" name="x_1320315_firstapp_ai_devices" sys_domain="global" view="Default view">d10dd2c597f8c6100606bed0f053afdb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-06 01:15:01</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>warranty_expiration</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-06 01:15:01</sys_created_on>
+            <sys_id>2d1d1ec597f8c6100606bed0f053af0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Price and Warranty" display_value="Price and Warranty" name="x_1320315_firstapp_ai_devices" sys_domain="global" view="Default view">d10dd2c597f8c6100606bed0f053afdb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-06 01:15:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Price and Warranty</caption>
+            <header>false</header>
+            <name>x_1320315_firstapp_ai_devices</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-06 01:14:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d10dd2c597f8c6100606bed0f053afdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1320315_firstapp_ai_devices</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="FirstCustomApp" source="x_1320315_firstapp">132f464d9778c6100606bed0f053af37</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="FirstCustomApp">132f464d9778c6100606bed0f053af37</sys_scope>
+            <sys_update_name>sys_ui_section_d10dd2c597f8c6100606bed0f053afdb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-06 01:14:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
