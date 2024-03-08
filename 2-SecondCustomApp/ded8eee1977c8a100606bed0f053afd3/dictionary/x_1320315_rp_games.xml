@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e529aa6997b0ca100606bed0f053afa2" label="Games" max_length="40" name="x_1320315_rp_games" type="collection">
+        <element label="Developer" max_length="100" name="developer" type="string"/>
+        <element choice="1" label="ESRB Rating" max_length="40" name="esrb_rating" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="N/A" sequence="0" value="N/A"/>
+                <element inactive_on_update="false" label="E" sequence="1" value="E"/>
+                <element inactive_on_update="false" label="T" sequence="2" value="T"/>
+                <element inactive_on_update="false" label="M" sequence="3" value="M"/>
+            </choice>
+        </element>
+        <element choice="1" label="Genre" max_length="40" name="genre" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="FPS" sequence="0" value="FPS"/>
+                <element inactive_on_update="false" label="PUZZLE" sequence="1" value="PUZZLE"/>
+                <element inactive_on_update="false" label="Racing" sequence="2" value="Racing"/>
+                <element inactive_on_update="false" label="Role-Playing" sequence="3" value="Role-Playing"/>
+                <element inactive_on_update="false" label="Sports" sequence="4" value="Sports"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Released" max_length="40" name="released" type="boolean"/>
+        <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="100" name="title" type="string"/>
+    </element>
+</database>

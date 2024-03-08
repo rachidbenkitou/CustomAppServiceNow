@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f53d2e2197f0ca100606bed0f053af63" label="Reviews" max_length="40" name="x_1320315_rp_reviews" type="collection">
+        <element label="Comments" max_length="1000" name="comments" type="string"/>
+        <element label="Game" max_length="32" name="game" reference="x_1320315_rp_games" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Reviewer" max_length="32" name="reviewer" reference="sys_user" type="reference"/>
+        <element label="Review Date" max_length="40" name="review_date" type="glide_date"/>
+        <element choice="1" label="Stars" max_length="40" name="stars" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="Not Yet Requested"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="Requested"/>
+                <element inactive_on_update="false" label="approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="Rejected"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="game"/>
+        </index>
+        <index name="index2">
+            <element name="reviewer"/>
+        </index>
+    </element>
+</database>

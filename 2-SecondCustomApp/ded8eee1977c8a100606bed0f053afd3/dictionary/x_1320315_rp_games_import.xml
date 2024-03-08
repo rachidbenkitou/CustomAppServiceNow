@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7ae13a6997f0ca100606bed0f053afdc" extends="sys_import_set_row" label="Games Import" max_length="40" name="x_1320315_rp_games_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=developer" label="developer" max_length="40" name="u_developer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=esrb_rating" label="esrb_rating" max_length="40" name="u_esrb_rating" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=genre" label="genre" max_length="40" name="u_genre" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=released" label="released" max_length="40" name="u_released" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=release_date" label="release_date" max_length="40" name="u_release_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=title" label="title" max_length="40" name="u_title" type="string"/>
+    </element>
+</database>
